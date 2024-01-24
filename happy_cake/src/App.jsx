@@ -1,9 +1,9 @@
 import "./App.css";
-
+import Navegacion from "./components/Navbar";
 function App() {
   return (
     <>
-      <h2>Hola mundo</h2>
+      <Navegacion></Navegacion>
     </>
   );
 }
