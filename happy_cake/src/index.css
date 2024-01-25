@@ -78,7 +78,8 @@ body {
 }
 .card__img {
   max-width: inherit;
-  max-height: inherit;
+  height: 310px;
+  object-fit: cover;
 }
 .home__footer {
   background-color: #dd4e4e;

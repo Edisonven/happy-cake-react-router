@@ -35,6 +35,15 @@ const Home = () => {
         <div className="home__card">
           <img src="./src/assets/imgs/img_6.jpg" alt="" className="card__img" />
         </div>
+        <div className="home__card">
+          <img src="./src/assets/imgs/img_7.jpg" alt="" className="card__img" />
+        </div>
+        <div className="home__card">
+          <img src="./src/assets/imgs/img_8.jpg" alt="" className="card__img" />
+        </div>
+        <div className="home__card">
+          <img src="./src/assets/imgs/img_9.jpg" alt="" className="card__img" />
+        </div>
       </div>
     </div>
   );
