@@ -1,23 +1,22 @@
-import { Container, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const Navegacion = () => {
   return (
-    <Navbar bg="danger" variant="dark" className="Navbar">
-      <Container>
-        <div>
-          <Link to="/" className="Link text-white ms-3 text-decoration-none">
+    <div className="navbar__container">
+      <nav className="navbar">
+        <div className="navbar__navigation">
+          <Link to="/" className="navbar__link">
             Home
           </Link>
-          <Link to="/contacto" className="Link text-white ms-3 text-decoration-none">
+          <Link to="/contacto" className="navbar__link">
             Contacto
           </Link>
         </div>
-        <div>
-          <Navbar.Brand>Happy Cake</Navbar.Brand>
+        <div className="navbar__logo">
+          <h1>Happy Cake</h1>
         </div>
-      </Container>
-    </Navbar>
+      </nav>
+    </div>
   );
 };
 export default Navegacion;

@@ -6,7 +6,7 @@ import Contacto from "./components/views/Contacto";
 function App() {
   return (
     <>
-      <Navegacion></Navegacion>
+      <Navegacion />
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/contacto" element={<Contacto />}></Route>
