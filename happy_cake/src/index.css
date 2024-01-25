@@ -70,6 +70,15 @@ body {
   gap: 20px;
   margin-top: 50px;
 }
+.home__title__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.home__logo__img {
+  width: 80px;
+}
 .home__card {
   max-height: 300px;
   max-width: 400px;
@@ -155,5 +164,8 @@ body {
   }
   .navbar__logo {
     font-size: 1rem;
+  }
+  .home__logo__img {
+    width: 110px;
   }
 }
