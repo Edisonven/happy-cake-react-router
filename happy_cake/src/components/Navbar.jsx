@@ -9,7 +9,7 @@ const Navegacion = () => {
           <Link to="/" className="Link text-white ms-3 text-decoration-none">
             Home
           </Link>
-          <Link to="/planes" className="Link text-white ms-3 text-decoration-none">
+          <Link to="/contacto" className="Link text-white ms-3 text-decoration-none">
             Contacto
           </Link>
         </div>
