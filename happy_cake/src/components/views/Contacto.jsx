@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Contacto = () => {
   return (
     <div className="contacto__container">
@@ -42,6 +43,7 @@ const Contacto = () => {
           placeholder="Ingrese su dirección"
           className="input input__direccion"
         />
+        <Link className="contacto__btn">Enviar</Link>
       </form>
     </div>
   );

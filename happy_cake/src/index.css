@@ -125,3 +125,18 @@ body {
   align-items: center;
   gap: 15px;
 }
+.contacto__btn {
+  width: 100px;
+  padding: 10px 0;
+  margin: 0 auto;
+  background-color: #c41313;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  border: 1px solid red;
+  text-decoration: none;
+}
+.contacto__btn:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
