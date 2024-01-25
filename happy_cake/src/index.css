@@ -4,6 +4,7 @@
 }
 body {
   font-family: "Ubuntu", sans-serif;
+  min-width: 375px;
 }
 .navbar {
   width: 100%;
@@ -33,15 +34,44 @@ body {
 }
 
 .home__container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   text-align: center;
 }
 .home__title {
-  margin-top: 50px;
+  margin: 50px 0;
   color: #141414;
   font-weight: 500;
 }
 .home__sub-title {
   font-weight: 700;
+}
+.home__section {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.home__line {
+  width: 100%;
+  background-color: #c41313;
+  height: 5px;
+}
+.home__cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 50px;
+}
+.home__card {
+  max-height: 300px;
+  max-width: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card__img {
+  max-width: inherit;
+  max-height: inherit;
 }
