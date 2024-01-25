@@ -1,8 +1,8 @@
 const Home = () => {
   return (
-    <div>
-      <h1 className="title">
-        Bienvenido a <span className="sub-title">Happy Cake</span>
+    <div className="home__container">
+      <h1 className="home__title">
+        Bienvenidos a <span className="home__sub-title">Happy Cake</span>
       </h1>
     </div>
   );
