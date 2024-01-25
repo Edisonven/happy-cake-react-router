@@ -22,9 +22,9 @@ const Contacto = () => {
             className="input input__correo"
           />
           <input
-            type="text"
-            placeholder="Ingrese su dirección"
-            className="input input__direccion"
+            type="number"
+            placeholder="Ingrese Código postal"
+            className="input input__codigo-postal"
           />
         </div>
         <input
@@ -39,8 +39,8 @@ const Contacto = () => {
         />
         <input
           type="text"
-          placeholder="Ingrese Código postal"
-          className="input input__codigo-postal"
+          placeholder="Ingrese su dirección"
+          className="input input__direccion"
         />
       </form>
     </div>
