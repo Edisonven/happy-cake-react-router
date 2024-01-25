@@ -84,11 +84,34 @@ body {
   max-width: 400px;
   border-radius: 10px;
   overflow: hidden;
+  position: relative;
+  transition: linear 0.2s;
 }
 .card__img {
   max-width: inherit;
   height: 310px;
   object-fit: cover;
+  transition: filter linear 0.2s;
+}
+.home__card:hover .card__img {
+  display: block;
+  filter: blur(5px);
+  cursor: pointer;
+}
+.home__card:hover .card__price {
+  display: block;
+  filter: blur(0);
+ 
+}
+.card__price {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  display: none;
+  font-size: 3rem;
 }
 .home__footer {
   background-color: #dd4e4e;
