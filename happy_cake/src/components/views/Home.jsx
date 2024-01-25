@@ -58,7 +58,7 @@ const Home = () => {
         </div>
         <div className="home__card">
           <img src="./src/assets/imgs/img_9.jpg" alt="" className="card__img" />
-          <h1 className="card__price">9.990</h1>
+          <h1 className="card__price">$9.990</h1>
         </div>
       </div>
     </div>
