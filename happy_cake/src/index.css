@@ -19,3 +19,6 @@
   align-items: center;
   justify-content: space-between;
 }
+.Link {
+  font-weight: bold;
+}

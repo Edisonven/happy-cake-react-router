@@ -6,10 +6,10 @@ const Navegacion = () => {
     <Navbar bg="danger" variant="dark" className="Navbar">
       <Container>
         <div>
-          <Link to="/" className="text-white ms-3 text-decoration-none">
+          <Link to="/" className="Link text-white ms-3 text-decoration-none">
             Home
           </Link>
-          <Link to="/planes" className="text-white ms-3 text-decoration-none">
+          <Link to="/planes" className="Link text-white ms-3 text-decoration-none">
             Contacto
           </Link>
         </div>
