@@ -75,3 +75,6 @@ body {
   max-width: inherit;
   max-height: inherit;
 }
+.home__footer {
+  background-color: #dd4e4e;
+}

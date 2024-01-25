@@ -16,13 +16,21 @@ const Home = () => {
           <img src="./src/assets/imgs/img_2.jpg" alt="" className="card__img" />
         </div>
         <div className="home__card">
-          <img src="./src/assets/imgs/img_3.webp" alt="" className="card__img" />
+          <img
+            src="./src/assets/imgs/img_3.webp"
+            alt=""
+            className="card__img"
+          />
         </div>
         <div className="home__card">
           <img src="./src/assets/imgs/img_4.jpg" alt="" className="card__img" />
         </div>
         <div className="home__card">
-          <img src="./src/assets/imgs/img_5.jpeg" alt="" className="card__img" />
+          <img
+            src="./src/assets/imgs/img_5.jpeg"
+            alt=""
+            className="card__img"
+          />
         </div>
         <div className="home__card">
           <img src="./src/assets/imgs/img_6.jpg" alt="" className="card__img" />
