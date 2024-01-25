@@ -101,7 +101,7 @@ body {
 .home__card:hover .card__price {
   display: block;
   filter: blur(0);
- 
+  cursor: pointer;
 }
 .card__price {
   color: #fff;
