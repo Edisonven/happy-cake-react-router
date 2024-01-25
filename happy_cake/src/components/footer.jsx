@@ -1,10 +1,10 @@
 const Footer = () => {
   return (
     <footer className="home__footer">
-      <p>
+      <h3 className="footer__info">
         Tenemos los mejores pasteles del mundo, ven y déjate encantar por
-        nustros sabores!
-      </p>
+        nuestros sabores!
+      </h3>
     </footer>
   );
 };

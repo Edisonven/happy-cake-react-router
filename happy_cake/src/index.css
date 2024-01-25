@@ -77,4 +77,13 @@ body {
 }
 .home__footer {
   background-color: #dd4e4e;
+  margin-top: 80px;
+  height: 80px;
+}
+.footer__info {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
