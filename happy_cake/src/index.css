@@ -56,7 +56,6 @@ body {
   align-items: center;
   gap: 30px;
 }
-
 .home__line {
   width: 100%;
   background-color: #c41313;
@@ -148,6 +147,7 @@ body {
   border: 1px solid #8d8b8b;
   font-size: 1.1rem;
   padding: 0 10px;
+  min-width: 60%;
 }
 .input__name {
   width: 100%;
@@ -160,6 +160,7 @@ body {
   display: flex;
   align-items: center;
   gap: 15px;
+  flex-wrap: wrap;
 }
 .contacto__btn {
   width: 100px;
@@ -188,5 +189,14 @@ body {
   }
   .home__logo__img {
     width: 110px;
+  }
+  .form__section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: nowrap;
+  }
+  .input {
+    min-width: 1%;
   }
 }
