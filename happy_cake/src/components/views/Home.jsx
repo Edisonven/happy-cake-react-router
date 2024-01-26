@@ -6,7 +6,7 @@ const Home = () => {
           Bienvenidos a <span className="home__sub-title">Happy Cake</span>
         </h1>
         <img
-          src="./src/assets/imgs/logo.jpg"
+          src="assets/imgs/logo.jpg"
           alt=""
           className="home__logo__img"
         />
@@ -17,47 +17,47 @@ const Home = () => {
       </div>
       <div className="home__cards">
         <div className="home__card">
-          <img src="./src/assets/imgs/img_1.jpg" alt="" className="card__img" />
+          <img src="assets/imgs/img1.jpg" alt="" className="card__img" />
           <h1 className="card__price">$15.990</h1>
         </div>
         <div className="home__card">
-          <img src="./src/assets/imgs/img_2.jpg" alt="" className="card__img" />
+          <img src="assets/imgs/img2.jpg" alt="" className="card__img" />
           <h1 className="card__price">$19.990</h1>
         </div>
         <div className="home__card">
           <img
-            src="./src/assets/imgs/img_3.webp"
+            src="assets/imgs/img3.webp"
             alt=""
             className="card__img"
           />
           <h1 className="card__price">$18.990</h1>
         </div>
         <div className="home__card">
-          <img src="./src/assets/imgs/img_4.jpg" alt="" className="card__img" />
+          <img src="assets/imgs/img4.jpg" alt="" className="card__img" />
           <h1 className="card__price">$13.950</h1>
         </div>
         <div className="home__card">
           <img
-            src="./src/assets/imgs/img_5.jpeg"
+            src="assets/imgs/img5.jpeg"
             alt=""
             className="card__img"
           />
           <h1 className="card__price">$21.990</h1>
         </div>
         <div className="home__card">
-          <img src="./src/assets/imgs/img_6.jpg" alt="" className="card__img" />
+          <img src="assets/imgs/img6.jpg" alt="" className="card__img" />
           <h1 className="card__price">$25.990</h1>
         </div>
         <div className="home__card">
-          <img src="./src/assets/imgs/img_7.jpg" alt="" className="card__img" />
+          <img src="assets/imgs/img7.jpg" alt="" className="card__img" />
           <h1 className="card__price">$20.990</h1>
         </div>
         <div className="home__card">
-          <img src="./src/assets/imgs/img_8.jpg" alt="" className="card__img" />
+          <img src="assets/imgs/img8.jpg" alt="" className="card__img" />
           <h1 className="card__price">$11.990</h1>
         </div>
         <div className="home__card">
-          <img src="./src/assets/imgs/img_9.jpg" alt="" className="card__img" />
+          <img src="assets/imgs/img9.jpg" alt="" className="card__img" />
           <h1 className="card__price">$9.990</h1>
         </div>
       </div>
