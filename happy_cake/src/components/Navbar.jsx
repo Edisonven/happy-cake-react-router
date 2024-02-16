@@ -7,13 +7,13 @@ const Navegacion = () => {
         <div className="navbar__navigation">
           <div className="navbar__links">
             <Link to="/" className="navbar__link">
-              <img src="assets/imgs/home.svg" alt="" />
+              <img src="/home.svg" alt="" />
               Home
             </Link>
           </div>
           <div className="navbar__links">
             <Link to="/contacto" className="navbar__link">
-              <img src="assets/imgs/contact.svg" alt="" />
+              <img src="/contact.svg" alt="" />
               Contacto
             </Link>
           </div>

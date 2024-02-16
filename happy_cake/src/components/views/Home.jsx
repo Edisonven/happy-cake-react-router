@@ -6,7 +6,7 @@ const Home = () => {
         <h1 className="home__title">
           Bienvenidos a <span className="home__sub-title">Happy Cake</span>
         </h1>
-        <img src="assets/imgs/logo.jpg" alt="" className="home__logo__img" />
+        <img src="/logo.jpg" alt="" className="home__logo__img" />
       </div>
       <div className="home__section">
         <h1>Pasteles</h1>
